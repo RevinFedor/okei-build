@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 1280px;
+  width: 1380px;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ body {
   margin: 30px 0 50px;
 }
 .search button {
-  background-color: #366AF3;
+  background-color: #366af3;
   color: #fff;
   padding: 18px 30px;
   border: none;
@@ -70,7 +70,7 @@ body {
 
 .logic {
   color: #fff;
-  background-color: #366AF3;
+  background-color: #366af3;
   padding: 25px 0 35px;
 }
 .logic_items {
@@ -99,4 +99,81 @@ body {
   text-align: center;
   font-size: 18px;
   width: 350px;
+}
+
+.scope {
+  display: flex;
+  position: relative;
+}
+.scope_title {
+  font-size: 38px;
+  margin: 85px 0 38px;
+  text-align: center;
+}
+.scope_item {
+  position: relative;
+  width: 650px;
+}
+.scope_item h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.scope_item p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #808080;
+}
+.scope_item img {
+  position: absolute;
+  left: -85px;
+  top: -6px;
+  width: 58px;
+  height: 58px;
+}
+.scope_item button {
+  margin: 25px 0 240px;
+  border: 1px solid #366af3;
+  color: #366af3;
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.scope_gif {
+  position: relative;
+  display: flex;
+}
+.scope_gif_block {
+  position: absolute;
+}
+.scope_gif img {
+  top: 200px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.block_button {
+  background-image: url("/images/vektop.svg");
+  background-position: top;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block_button button {
+  margin-top: 100px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #366af3;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
