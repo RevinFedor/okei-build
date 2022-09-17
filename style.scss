@@ -19,33 +19,33 @@ body {
     font-size: 28px;
     font-family: 800;
     &_p {
-      margin:  0 15px 0 5px;
+      margin: 0 15px 0 5px;
       padding-right: 15px;
       color: blue;
       border-right: 1px solid rgba(0, 0, 0, 0.11);
     }
   }
-  &_logout{
+  &_logout {
     font-weight: 600;
     display: flex;
     align-items: center;
-font-size: 18px;
-cursor: pointer;
-p{
-  margin-right: 5px;
-}
+    font-size: 18px;
+    cursor: pointer;
+    p {
+      margin-right: 5px;
+    }
   }
   &_left {
     display: flex;
   }
   &_nav {
-    display: flex;
-    justify-content: center;
+
     ul {
       display: flex;
+  
       margin: 0 auto;
-      margin-top: 20px;
-      margin-bottom: 26px;
+  
+      margin: 25px 0 35px;
       font-size: 17px;
       li {
         margin-right: 37px;
@@ -312,7 +312,7 @@ p{
     &_vk {
       display: flex;
       align-items: center;
-      img{
+      img {
         margin: -10px 5px 0 0;
       }
     }

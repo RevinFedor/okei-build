@@ -40,15 +40,10 @@ body {
 .logo_left {
   display: flex;
 }
-.logo_nav {
-  display: flex;
-  justify-content: center;
-}
 .logo_nav ul {
   display: flex;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 26px;
+  margin: 25px 0 35px;
   font-size: 17px;
 }
 .logo_nav ul li {
