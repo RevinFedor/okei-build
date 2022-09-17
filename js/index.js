@@ -30,3 +30,6 @@ window.addEventListener("scroll", function () {
 setInterval(() => {
   gif.src = "../images/gid.gif";
 }, 7000);
+
+
+
